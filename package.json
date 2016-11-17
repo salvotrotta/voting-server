@@ -1,0 +1,32 @@
+{
+  "name": "voting-server",
+  "version": "1.0.0",
+  "description": "questo ciao questo è il repo di voting-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive"
+    
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salvotrotta/voting-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salvotrotta/voting-server/issues"
+  },
+  "homepage": "https://github.com/salvotrotta/voting-server#readme",
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "devDependencies": {
+    "chai-immutable": "^1.6.0"
+  }
+}
